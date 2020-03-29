@@ -202,4 +202,3 @@ for key in learning_data.keys():
  
 #with open(FILENAME, "rb") as file:
  #   a = pickle.load(file)
-aaaa
