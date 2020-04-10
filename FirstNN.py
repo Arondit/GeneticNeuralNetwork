@@ -184,21 +184,3 @@ learning_data = {(0,0):0, (0,1):1,(1,0):1,(1,1):0}
 n = generate([2,3,4,2],learning_data=learning_data)
 for key in learning_data.keys():
     print(key,':',n(key))
-
-
-#x = np.arange(-8, 8, 0.1)
-#f = 1 / (1 + np.exp(-x))
-
-#plt.plot(x, f)
-#plt.xlabel('x')
-#plt.ylabel('f(x)')
-#plt.show()
-
-
-#FILENAME = "user.dat"
- 
-#with open(FILENAME, "wb") as file:
- #   pickle.dump(n, file)
- 
-#with open(FILENAME, "rb") as file:
- #   a = pickle.load(file)
